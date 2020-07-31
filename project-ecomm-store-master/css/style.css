@@ -1,0 +1,150 @@
+.main-header {
+    display: table;
+    width: 100%;
+    border-bottom: .5em solid #ffffff;
+    border-bottom-color: #ffffff;
+}
+.header {
+    background-color: #ffd2ab;
+    margin-bottom: 1em;
+}
+.header-logo {
+    max-width: 25%;
+    padding: 2em 2em 2em 2em;
+}
+.nav-header {
+    display: flex;
+    width: 100%;
+    font-size: 1em;
+}
+.menu {
+    width: 100%;
+}
+
+.hover:hover {
+    background-color: rgba(255,224,179,0.25);
+}
+
+.hamburger {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: orange;
+    background-color: white;
+    border: none;
+}
+.searchbar {
+    display: flex;
+    width: 100%;
+    font-size: 1em;
+    text-align: right;
+}
+
+.nav-links {
+    width: 100%;
+}
+
+.categories {
+    font-weight: 500;
+    display: block;
+}
+.category-list {
+    font-weight: 300;
+}
+
+.cart {
+    background-color: rgba(255, 255, 255, .25);
+    border-radius: 4em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    padding: 1em;
+}
+h1 {
+    width: 100%;
+    height: 3em;
+    background-color: #ede3d5;
+    text-align: center;
+    font-size: 3em;
+}
+
+h3 {
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.center-middle {
+    padding-top: .75em;
+}
+
+.filter-heading {
+    margin-left: .5em;
+}
+
+.filter {
+    font-size: .75em;
+}
+
+.products {
+    display: flex;
+    align-items: stretch;
+}
+
+.product-card {
+    padding: 2em;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 1em 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination {
+    text-align: center;
+    display: block;
+    list-style: none;
+}
+
+.pagination-ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.pagination-ul-li {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.page-item {
+    display: inline-block;
+    margin: 0;
+    padding: 0 2%;
+}
+
+.page-item-active {
+    display: inline-block;
+    margin: 0;
+    padding: 0 2%;
+    color: #ffd2ab;;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.ul-none {
+    padding-left: 0;
+}
+
+footer {
+    text-align: center;
+}
